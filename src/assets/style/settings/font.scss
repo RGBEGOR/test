@@ -1,7 +1,9 @@
 $Montserrat: ('Montserrat-Bold', 700),
              ('Montserrat-BoldItalic', 701),
              ('Montserrat-Light', 300),
-             ('Montserrat-Regular', 400);
+             ('Montserrat-Regular', 400),
+             ('Inter-Regular', 400);
+
 
 @each $name, $weight in $Montserrat {
     @font-face {
